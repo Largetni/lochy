@@ -63,9 +63,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bat {
+        internal static System.Drawing.Bitmap batPic {
             get {
-                object obj = ResourceManager.GetObject("bat", resourceCulture);
+                object obj = ResourceManager.GetObject("batPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap battleaxe {
+        internal static System.Drawing.Bitmap bowPic {
             get {
-                object obj = ResourceManager.GetObject("battleaxe", resourceCulture);
+                object obj = ResourceManager.GetObject("bowPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bomb {
+        internal static System.Drawing.Bitmap dungeonPic {
             get {
-                object obj = ResourceManager.GetObject("bomb", resourceCulture);
+                object obj = ResourceManager.GetObject("dungeonPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap bow {
+        internal static System.Drawing.Bitmap ghostPic {
             get {
-                object obj = ResourceManager.GetObject("bow", resourceCulture);
+                object obj = ResourceManager.GetObject("ghostPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dungeon600x400 {
+        internal static System.Drawing.Bitmap ghoulPic {
             get {
-                object obj = ResourceManager.GetObject("dungeon600x400", resourceCulture);
+                object obj = ResourceManager.GetObject("ghoulPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ghost {
+        internal static System.Drawing.Bitmap macePic {
             get {
-                object obj = ResourceManager.GetObject("ghost", resourceCulture);
+                object obj = ResourceManager.GetObject("macePic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ghoul {
+        internal static System.Drawing.Bitmap playerPic {
             get {
-                object obj = ResourceManager.GetObject("ghoul", resourceCulture);
+                object obj = ResourceManager.GetObject("playerPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap mace {
+        internal static System.Drawing.Bitmap potion_bluePic {
             get {
-                object obj = ResourceManager.GetObject("mace", resourceCulture);
+                object obj = ResourceManager.GetObject("potion_bluePic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap player {
+        internal static System.Drawing.Bitmap potion_redPic {
             get {
-                object obj = ResourceManager.GetObject("player", resourceCulture);
+                object obj = ResourceManager.GetObject("potion_redPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,59 +153,9 @@ namespace projekt_wyprawa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap potion_blue {
+        internal static System.Drawing.Bitmap swordPic {
             get {
-                object obj = ResourceManager.GetObject("potion_blue", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap potion_red {
-            get {
-                object obj = ResourceManager.GetObject("potion_red", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap quiver {
-            get {
-                object obj = ResourceManager.GetObject("quiver", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap shield {
-            get {
-                object obj = ResourceManager.GetObject("shield", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap sword {
-            get {
-                object obj = ResourceManager.GetObject("sword", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap wizard {
-            get {
-                object obj = ResourceManager.GetObject("wizard", resourceCulture);
+                object obj = ResourceManager.GetObject("swordPic", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

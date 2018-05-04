@@ -87,7 +87,7 @@
             // swordBox
             // 
             this.swordBox.BackColor = System.Drawing.Color.Transparent;
-            this.swordBox.Image = global::projekt_wyprawa.Properties.Resources.sword;
+            this.swordBox.Image = global::projekt_wyprawa.Properties.Resources.swordPic;
             this.swordBox.Location = new System.Drawing.Point(72, 306);
             this.swordBox.Name = "swordBox";
             this.swordBox.Size = new System.Drawing.Size(50, 50);
@@ -99,7 +99,7 @@
             // bowBox
             // 
             this.bowBox.BackColor = System.Drawing.Color.Transparent;
-            this.bowBox.Image = global::projekt_wyprawa.Properties.Resources.bow;
+            this.bowBox.Image = global::projekt_wyprawa.Properties.Resources.bowPic;
             this.bowBox.Location = new System.Drawing.Point(128, 306);
             this.bowBox.Name = "bowBox";
             this.bowBox.Size = new System.Drawing.Size(50, 50);
@@ -111,7 +111,7 @@
             // maceBox
             // 
             this.maceBox.BackColor = System.Drawing.Color.Transparent;
-            this.maceBox.Image = global::projekt_wyprawa.Properties.Resources.mace;
+            this.maceBox.Image = global::projekt_wyprawa.Properties.Resources.macePic;
             this.maceBox.Location = new System.Drawing.Point(184, 306);
             this.maceBox.Name = "maceBox";
             this.maceBox.Size = new System.Drawing.Size(50, 50);
@@ -123,7 +123,7 @@
             // blueBox
             // 
             this.blueBox.BackColor = System.Drawing.Color.Transparent;
-            this.blueBox.Image = global::projekt_wyprawa.Properties.Resources.potion_blue;
+            this.blueBox.Image = global::projekt_wyprawa.Properties.Resources.potion_bluePic;
             this.blueBox.Location = new System.Drawing.Point(240, 306);
             this.blueBox.Name = "blueBox";
             this.blueBox.Size = new System.Drawing.Size(50, 50);
@@ -135,7 +135,7 @@
             // redBox
             // 
             this.redBox.BackColor = System.Drawing.Color.Transparent;
-            this.redBox.Image = global::projekt_wyprawa.Properties.Resources.potion_red;
+            this.redBox.Image = global::projekt_wyprawa.Properties.Resources.potion_redPic;
             this.redBox.Location = new System.Drawing.Point(296, 306);
             this.redBox.Name = "redBox";
             this.redBox.Size = new System.Drawing.Size(50, 50);
@@ -147,8 +147,8 @@
             // playerPicture
             // 
             this.playerPicture.BackColor = System.Drawing.Color.Transparent;
-            this.playerPicture.BackgroundImage = global::projekt_wyprawa.Properties.Resources.player;
             this.playerPicture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.playerPicture.Image = global::projekt_wyprawa.Properties.Resources.playerPic;
             this.playerPicture.Location = new System.Drawing.Point(82, 60);
             this.playerPicture.Name = "playerPicture";
             this.playerPicture.Size = new System.Drawing.Size(30, 30);
@@ -159,7 +159,7 @@
             // batPicture
             // 
             this.batPicture.BackColor = System.Drawing.Color.Transparent;
-            this.batPicture.Image = global::projekt_wyprawa.Properties.Resources.bat;
+            this.batPicture.Image = global::projekt_wyprawa.Properties.Resources.batPic;
             this.batPicture.Location = new System.Drawing.Point(118, 60);
             this.batPicture.Name = "batPicture";
             this.batPicture.Size = new System.Drawing.Size(30, 30);
@@ -171,7 +171,7 @@
             // ghostPicture
             // 
             this.ghostPicture.BackColor = System.Drawing.Color.Transparent;
-            this.ghostPicture.Image = global::projekt_wyprawa.Properties.Resources.ghost;
+            this.ghostPicture.Image = global::projekt_wyprawa.Properties.Resources.ghostPic;
             this.ghostPicture.Location = new System.Drawing.Point(154, 60);
             this.ghostPicture.Name = "ghostPicture";
             this.ghostPicture.Size = new System.Drawing.Size(30, 30);
@@ -183,7 +183,7 @@
             // ghoulPicture
             // 
             this.ghoulPicture.BackColor = System.Drawing.Color.Transparent;
-            this.ghoulPicture.Image = global::projekt_wyprawa.Properties.Resources.ghoul;
+            this.ghoulPicture.Image = global::projekt_wyprawa.Properties.Resources.ghoulPic;
             this.ghoulPicture.Location = new System.Drawing.Point(190, 60);
             this.ghoulPicture.Name = "ghoulPicture";
             this.ghoulPicture.Size = new System.Drawing.Size(30, 30);
@@ -195,7 +195,7 @@
             // redPicture
             // 
             this.redPicture.BackColor = System.Drawing.Color.Transparent;
-            this.redPicture.Image = global::projekt_wyprawa.Properties.Resources.potion_red;
+            this.redPicture.Image = global::projekt_wyprawa.Properties.Resources.potion_redPic;
             this.redPicture.Location = new System.Drawing.Point(226, 60);
             this.redPicture.Name = "redPicture";
             this.redPicture.Size = new System.Drawing.Size(30, 30);
@@ -207,7 +207,7 @@
             // bluePicture
             // 
             this.bluePicture.BackColor = System.Drawing.Color.Transparent;
-            this.bluePicture.Image = global::projekt_wyprawa.Properties.Resources.potion_blue;
+            this.bluePicture.Image = global::projekt_wyprawa.Properties.Resources.potion_bluePic;
             this.bluePicture.Location = new System.Drawing.Point(260, 60);
             this.bluePicture.Name = "bluePicture";
             this.bluePicture.Size = new System.Drawing.Size(30, 30);
@@ -219,7 +219,7 @@
             // swordPicture
             // 
             this.swordPicture.BackColor = System.Drawing.Color.Transparent;
-            this.swordPicture.Image = global::projekt_wyprawa.Properties.Resources.sword;
+            this.swordPicture.Image = global::projekt_wyprawa.Properties.Resources.swordPic;
             this.swordPicture.Location = new System.Drawing.Point(296, 60);
             this.swordPicture.Name = "swordPicture";
             this.swordPicture.Size = new System.Drawing.Size(30, 30);
@@ -231,7 +231,7 @@
             // bowPicture
             // 
             this.bowPicture.BackColor = System.Drawing.Color.Transparent;
-            this.bowPicture.Image = global::projekt_wyprawa.Properties.Resources.bow;
+            this.bowPicture.Image = global::projekt_wyprawa.Properties.Resources.bowPic;
             this.bowPicture.Location = new System.Drawing.Point(332, 60);
             this.bowPicture.Name = "bowPicture";
             this.bowPicture.Size = new System.Drawing.Size(30, 30);
@@ -243,7 +243,7 @@
             // macePicture
             // 
             this.macePicture.BackColor = System.Drawing.Color.Transparent;
-            this.macePicture.Image = global::projekt_wyprawa.Properties.Resources.mace;
+            this.macePicture.Image = global::projekt_wyprawa.Properties.Resources.macePic;
             this.macePicture.Location = new System.Drawing.Point(368, 60);
             this.macePicture.Name = "macePicture";
             this.macePicture.Size = new System.Drawing.Size(30, 30);
@@ -512,13 +512,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::projekt_wyprawa.Properties.Resources.dungeon600x400;
+            this.BackgroundImage = global::projekt_wyprawa.Properties.Resources.dungeonPic;
             this.ClientSize = new System.Drawing.Size(595, 401);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.playerPicture);
-            this.Controls.Add(this.bluePicture);
-            this.Controls.Add(this.redPicture);
             this.Controls.Add(this.ghoulPicture);
             this.Controls.Add(this.ghostPicture);
             this.Controls.Add(this.batPicture);
@@ -527,10 +523,14 @@
             this.Controls.Add(this.maceBox);
             this.Controls.Add(this.bowBox);
             this.Controls.Add(this.swordBox);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.tableLayoutPanel2);
+            this.Controls.Add(this.bluePicture);
+            this.Controls.Add(this.redPicture);
             this.Controls.Add(this.macePicture);
             this.Controls.Add(this.bowPicture);
             this.Controls.Add(this.swordPicture);
-            this.Controls.Add(this.tableLayoutPanel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

@@ -65,6 +65,11 @@
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RedPotion.cs" />
     <Compile Include="Sword.cs" />
     <Compile Include="Weapon.cs" />
@@ -73,14 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -99,12 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\battleaxe.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\bomb.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\bow.png" />
@@ -128,16 +122,67 @@
     <None Include="Resources\potion_red.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\quiver.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shield.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\sword.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\wizard.png" />
+    <None Include="Resources\bat1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dungeon600x4001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghost1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghoul1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mace1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\player1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_blue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_red1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\batPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bowPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghostPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghoulPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macePic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playerPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_bluePic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_redPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordPic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dungeonPic.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
