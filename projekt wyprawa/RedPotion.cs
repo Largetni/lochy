@@ -12,7 +12,7 @@ namespace projekt_wyprawa
         public RedPotion(Game game, Point location)
                : base(game, location)
         {
-
+            
         }
         public override string Name { get { return "Czerwona mikstura"; } }
         private bool used = false;
